@@ -56,7 +56,7 @@ hiddenElements.forEach((element) => observer.observe(element));
 
 // set up text to print, each item in array is new line
 var aText =
-    "Hi! I'm Igor Siata"
+    "Hi! I'm Igor Siata 👋"
 var iSpeed = 100; // time delay of print out
 
 
@@ -69,7 +69,7 @@ function typewriter() {
 
     iTextPos++;
     if (iTextPos <= aText.length) {
-        setTimeout("typewriter()", 50);
+        setTimeout("typewriter()", 100);
     }
 
 }

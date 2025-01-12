@@ -11,6 +11,7 @@
     <title>Igor Siata</title>
     <link rel="icon" href="assets/icon.png" type="image/png">
     <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js"></script>
     <script defer src="app.js"></script>
 </head>
 
@@ -46,27 +47,24 @@
 
     <main>
         <section id="about-me">
+
             <h2 class="typewritter"></h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus autem inventore architecto perferendis
-                unde,
-                atque blanditiis beatae quaerat consequuntur ea quas voluptate quia sequi distinctio neque sed,
-                veritatis
-                esse porro!
-            </p>
+            <div id="about-me-container">
+                <img src="./assets/profile_image.jpg" alt="image" />
+                <p>
+                    Automatics and Robotics student, aspiring to develop career
+                    in robotics industry.
+                    <br /><br />
+                    Currently looking for internship in IT or robotics industry.
+            </div>
+
         </section>
 
-        <div class="separator separator-bot"></div>
+        <div class="separator separator-bot" id="skills"></div>
 
-        <section id="skills">
+        <section id="skills-section">
             <h2>Skills</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus autem inventore architecto perferendis
-                unde,
-                atque blanditiis beatae quaerat consequuntur ea quas voluptate quia sequi distinctio neque sed,
-                veritatis
-                esse porro!
-            </p>
+
             <div class="logos">
                 <div class="logo hidden">
                     <img src="assets/python.svg" alt="python">
@@ -99,24 +97,39 @@
                     <img src="assets/matlab.svg" alt="matlab">
                 </div>
             </div>
-        </section>
-
-        <div class="separator separator-top"></div>
-
-        <section id="projects">
-            <h2>Projects</h2>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus autem inventore architecto perferendis
-                unde,
-                atque blanditiis beatae quaerat consequuntur ea quas voluptate quia sequi distinctio neque sed,
-                veritatis
-                esse porro!
+                I am highly proficient in Python, which I use for personal project and in university. I have a strong
+                foundation in C++, which has given me valuable insights into memory management, object-oriented
+                programming, data structures and algorithms.
+                <br /><br />
+                Over the past year, I have been learning web development, gainig experience with JavaScript, HTML, CSS,
+                Django and frameworks such as React.
+                <br /><br />
+                Additionally, I have learned C and used it to program microcontrolers, witch has deepened my
+                understanding of the inner workings of computers.
+                <br /><br />
+                I am also well-versed in MATLAB and Simulink, thanks to my university coursework.
             </p>
         </section>
 
-        <div class="separator separator-bot"></div>
+        <div class="separator separator-top" id="projects"></div>
 
-        <section id="contact">
+        <section id="projects-section">
+            <h2>Projects</h2>
+            <div id="projects-container">
+                <div class="project">
+                    <img src="assets/number_detector.PNG" alt="number_detector">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo cum assumenda delectus, doloremque
+                        necessitatibus cumque vero autem quia, nulla obcaecati voluptatem nobis dolorum eius eos esse
+                        voluptatibus repellat ipsam blanditiis.</p>
+
+                </div>
+            </div>
+        </section>
+
+        <div class="separator separator-bot" id="contact"></div>
+
+        <section id="contact-section">
             <h2>Contact</h2>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus autem inventore architecto perferendis
