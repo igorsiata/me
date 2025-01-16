@@ -1,3 +1,4 @@
+
 document.querySelectorAll('.logo').forEach((el, index) => el.style.setProperty('--custom-index', index));
 
 const themeButton = document.getElementById("btn-theme");
@@ -6,33 +7,33 @@ const theme = localStorage.getItem('theme');
 
 
 
-
 if (theme) {
+    console.log(theme);
     body.classList.add(theme);
-    if (theme === 'dark') {
-        themeButton.querySelector("#dark-mode-icon").style.display = 'none';
-        themeButton.querySelector("#light-mode-icon").style.display = 'block';
-        body.classList.replace('dark', 'dark');
-    } else {
+    if (theme === 'light') {
         themeButton.querySelector("#dark-mode-icon").style.display = 'block';
         themeButton.querySelector("#light-mode-icon").style.display = 'none';
-        body.classList.replace('light', 'light');
+        body.classList.replace('dark', 'light');
+    } else {
+        themeButton.querySelector("#dark-mode-icon").style.display = 'none';
+        themeButton.querySelector("#light-mode-icon").style.display = 'block';
+        body.classList.replace('light', 'dark');
     };
 }
 
 
 themeButton.onclick = () => {
 
-    if (body.classList.contains('dark')) {
-        themeButton.querySelector("#dark-mode-icon").style.display = 'block';
-        themeButton.querySelector("#light-mode-icon").style.display = 'none';
-        body.classList.replace('dark', 'light');
-        localStorage.setItem('theme', 'light');
-    } else {
+    if (body.classList.contains('light')) {
         themeButton.querySelector("#dark-mode-icon").style.display = 'none';
         themeButton.querySelector("#light-mode-icon").style.display = 'block';
         body.classList.replace('light', 'dark');
-        localStorage.setItem('theme', 'dark');
+        localStorage.setItem("theme", "dark");
+    } else {
+        themeButton.querySelector("#dark-mode-icon").style.display = 'block';
+        themeButton.querySelector("#light-mode-icon").style.display = 'none';
+        body.classList.replace('dark', 'light');
+        localStorage.setItem("theme", "light");
     };
 }
 
@@ -74,3 +75,7 @@ function typewriter() {
 
 }
 typewriter();
+
+
+
+

@@ -1,156 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
-    rel="stylesheet"/>
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
 
     <title>Igor Siata</title>
-    <link rel="icon" href="assets/icon.png" type="image/png">
+    <link rel="icon" href="assets/icon.png" type="image/png" />
     <link rel="stylesheet" href="styles.css" />
     <script defer src="app.js"></script>
-</head>
+  </head>
 
-<body class="dark">
+  <body class="dark">
     <nav class="navbar">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a href="#">
-                    <i class="ri-home-2-fill"></i>
-                    
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="#skills">
-                    <i class="ri-tools-fill"></i>
-                    
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="#projects">
-                    <i class="ri-edit-2-fill"></i>
-                    
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="#contact">
-                    <i class="ri-mail-fill"></i>
-                    
-                </a>
-            </li>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="#">
+            <i class="ri-home-2-fill"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#skills">
+            <i class="ri-tools-fill"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#projects">
+            <i class="ri-edit-2-fill"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact">
+            <i class="ri-mail-fill"></i>
+          </a>
+        </li>
 
-            <li class="nav-item">
-                <button id="btn-theme" href="">
-                    <i id="dark-mode-icon" class="ri-sun-fill"></i>
-                    <i id="light-mode-icon" class="ri-moon-clear-fill" ></i>
-                </button>
-            </li>
-        </ul>
+        <li class="nav-item">
+          <button id="btn-theme" href="">
+            <i id="dark-mode-icon" class="ri-moon-clear-fill"></i>
+            <i id="light-mode-icon" class="ri-sun-fill"></i>
+          </button>
+        </li>
+      </ul>
     </nav>
 
     <main>
-        <section id="about-me">
-
-            
-            <div id="about-me-container">
-                <img src="./assets/profile_image.jpg" alt="image" />
-                <div id="about-me-content">
-                    <h2 class="typewritter"></h2>
-                    <p>
-                        Automatics and Robotics student.
-                        <br /><br />
-                        Looking for internship in software development or robotics.
-                    </p>
-                </div>
-            </div>
-
-        </section>
-
-        <div class="separator separator-bot"></div>
-
-        <section id="skills">
-            <h2>Skills</h2>
-
-            <div class="logos">
-                <div class="logo hidden">
-                    <img src="assets/python.svg" alt="python">
-                </div>
-                <div class="logo hidden">
-                    <img src="assets/c-plusplus.svg" alt="c++">
-                </div>
-                <div class="logo hidden">
-                    <img src="assets/git-icon.svg" alt="git">
-                </div>
-                <div class="logo hidden">
-                    <img src="assets/javascript.svg" alt="javascript">
-                </div>
-                <div class="logo hidden">
-                    <img src="assets/html-5.svg" alt="html">
-                </div>
-                <div class="logo hidden">
-                    <img src="assets/css-3.svg" alt="css">
-                </div>
-                <div class="logo hidden">
-                    <img src="assets/react.svg" alt="react">
-                </div>
-                <div class="logo hidden">
-                    <img src="assets/django.svg" alt="django">
-                </div>
-                <div class="logo hidden">
-                    <img src="assets/mysql.svg" alt="mysql">
-                </div>
-                <div class="logo hidden">
-                    <img src="assets/matlab.svg" alt="matlab">
-                </div>
-            </div>
+      <section id="about-me">
+        <div id="about-me-container">
+          <img src="./assets/profile_image.jpg" alt="image" />
+          <div id="about-me-content">
+            <h2 class="typewritter"></h2>
             <p>
-                I am highly proficient in Python, which I use for personal project and in university. I have a strong
-                foundation in C++, which has given me valuable insights into memory management, object-oriented
-                programming, data structures and algorithms.
-                <br /><br />
-                Over the past year, I have been learning web development, gainig experience with JavaScript, HTML, CSS,
-                Django and frameworks such as React.
-                <br /><br />
-                Additionally, I have learned C and used it to program microcontrolers, witch has deepened my
-                understanding of the inner workings of computers.
-                <br /><br />
-                I am also well-versed in MATLAB and Simulink, thanks to my university coursework.
+              Automatics and Robotics student.
             </p>
-        </section>
-
-        <div class="separator separator-top" ></div>
-
-        <section id="projects">
-            <h2>Projects</h2>
-            <div id="projects-container">
-                <div class="project">
-                    <img src="assets/number_detector.PNG" alt="number_detector">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo cum assumenda delectus, doloremque
-                        necessitatibus cumque vero autem quia, nulla obcaecati voluptatem nobis dolorum eius eos esse
-                        voluptatibus repellat ipsam blanditiis.</p>
-
-                </div>
-            </div>
-        </section>
-
-        <div class="separator separator-bot"></div>
-
-        <section id="contact">
-            <h2>Contact</h2>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus autem inventore architecto perferendis
-                unde,
-                atque blanditiis beatae quaerat consequuntur ea quas voluptate quia sequi distinctio neque sed,
-                veritatis
-                esse porro!
+              Looking for internship in software development or robotics.
             </p>
-        </section>
+            <p class="smaller-font">
+              <i class="ri-map-pin-line"></i>
+              Cracow, Poland
+            </p>
+            <div id="links-container">
+                <a href="mailto:igor.siata33@gmail.com" class="link-right">
+                    <!-- <span>Mail</span> -->
+                    <i class="ri-mail-fill"></i>
+                    
+                </a>
+                <a href="https://github.com/igorsiata" target="_blank" class="link-right">
+                    <!-- <span>GitHub</span> -->
+                    <i class="ri-github-fill"></i>
+                    
+                </a>
+                <a href="assets/cv.pdf" target="_blank" class="link-right">
+                    <!-- <span>CV</span> -->
+                    <i class="ri-file-text-fill"></i>
+                </a>
+              </div>
+          </div>
+          
+        </div>
+        
+      </section>
+
+      <div class="separator separator-bot"></div>
+
+      <section id="skills">
+        <h2>Skills</h2>
+
+        <div class="logos">
+          <div class="logo hidden">
+            <img src="assets/python.svg" alt="python" />
+          </div>
+          <div class="logo hidden">
+            <img src="assets/c-plusplus.svg" alt="c++" />
+          </div>
+          <div class="logo hidden">
+            <img src="assets/git-icon.svg" alt="git" />
+          </div>
+          <div class="logo hidden">
+            <img src="assets/javascript.svg" alt="javascript" />
+          </div>
+          <div class="logo hidden">
+            <img src="assets/html-5.svg" alt="html" />
+          </div>
+          <div class="logo hidden">
+            <img src="assets/css-3.svg" alt="css" />
+          </div>
+          <div class="logo hidden">
+            <img src="assets/react.svg" alt="react" />
+          </div>
+          <div class="logo hidden">
+            <img src="assets/django.svg" alt="django" />
+          </div>
+          <div class="logo hidden">
+            <img src="assets/mysql.svg" alt="mysql" />
+          </div>
+          <div class="logo hidden">
+            <img src="assets/matlab.svg" alt="matlab" />
+          </div>
+        </div>
+        <p>
+          I am highly proficient in Python, which I use for personal project and
+          in university. I have a strong foundation in C++, which has given me
+          valuable insights into memory management, object-oriented programming,
+          data structures and algorithms.
+          <br /><br />
+          Over the past year, I have been learning web development, gainig
+          experience with JavaScript, HTML, CSS, Django and frameworks such as
+          React.
+          <br /><br />
+          Additionally, I have learned C and used it to program microcontrolers,
+          witch has deepened my understanding of the inner workings of
+          computers.
+          <br /><br />
+          I am also well-versed in MATLAB and Simulink, thanks to my university
+          coursework.
+        </p>
+      </section>
+
+      <div class="separator separator-top"></div>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <div id="projects-container">
+          <div class="project">
+            <img src="assets/number_detector.PNG" alt="number_detector" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo cum
+              assumenda delectus, doloremque necessitatibus cumque vero autem
+              quia, nulla obcaecati voluptatem nobis dolorum eius eos esse
+              voluptatibus repellat ipsam blanditiis.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="separator separator-bot"></div>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus autem
+          inventore architecto perferendis unde, atque blanditiis beatae quaerat
+          consequuntur ea quas voluptate quia sequi distinctio neque sed,
+          veritatis esse porro!
+        </p>
+      </section>
     </main>
-</body>
-
-
+  </body>
 </html>
