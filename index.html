@@ -61,7 +61,6 @@
           </p>
           <div id="links-container">
             <a href="mailto:igor.siata33@gmail.com" class="link-right">
-              
               <i class="ri-mail-fill"></i>
               <span>Mail</span>
             </a>
@@ -70,12 +69,10 @@
               target="_blank"
               class="link-right"
             >
-              
               <i class="ri-github-fill"></i>
               <span>GitHub</span>
             </a>
             <a href="assets/cv.pdf" target="_blank" class="link-right">
-              
               <i class="ri-file-text-fill"></i>
               <span>CV</span>
             </a>
@@ -145,45 +142,84 @@
     <section id="projects">
       <h2>Projects</h2>
       <div id="projects-container">
-        <a
-          href="https://github.com/igorsiata/number_classification"
-          class="project"
-        >
-          <img src="assets/number_detector.PNG" alt="number_detector" />
-          <p>
-            Number classificator. Implemented neural network from scratch, using
-            numpy for faster computing. Used data from web to train the network.
-            Developed app that lets users write digits.
-          </p>
-          <div class="project-technologies">
-            <img src="assets/python.svg" alt="python" />
-            <img src="assets/numpy.svg" alt="numpy" />
-          </div>
-        </a>
-        <a href="https://github.com/igorsiata/chess" class="project">
-          <img src="assets/chess.PNG" alt="number_detector" />
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo cum
-            assumenda delectus, doloremque necessitatibus
-          </p>
-          <div class="project-technologies">
-            <img src="assets/c-plusplus.svg" alt="c-plusplus" />
-            <img src="assets/sfml.svg" alt="sfml" />
-          </div>
-        </a>
-        <a href="https://github.com/igorsiata/football_web" class="project">
-          <img src="assets/footbal_web.PNG" alt="footbal_web" />
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo cum
-            assumenda delectus, doloremque necessitatibus
-          </p>
-          <div class="project-technologies">
-            <img src="assets/html-5.svg" alt="html" />
-            <img src="assets/css-3.svg" alt="css" />
-            <img src="assets/javascript.svg" alt="javascript" />
-            <img src="assets/django.svg" alt="django" />
-          </div>
-        </a>
+        <button class="slide-arrow" id="slide-arrow-prev">&#8249;</button>
+        <button class="slide-arrow" id="slide-arrow-next">&#8250;</button>
+        <ul id="slides-container">
+          <li class="slide">
+            <a
+              href="https://github.com/igorsiata/number_classification"
+              class="project"
+            >
+              <img src="assets/number_detector.PNG" alt="number_detector" />
+              <div>
+                <h4>Number classificator</h4>
+                <p>
+                  Implemented neural network from scratch. Used data from web to
+                  train the network. Developed app that lets users write digits.
+                </p>
+              </div>
+              <div class="project-technologies">
+                <img src="assets/python.svg" alt="python" />
+                <img src="assets/numpy.svg" alt="numpy" />
+              </div>
+            </a>
+          </li>
+          <li class="slide">
+            <a href="https://github.com/igorsiata/chess" class="project">
+              <img src="assets/chess.PNG" alt="number_detector" />
+              <div>
+                <h4>Chess</h4>
+                <p>
+                  Developed a chess game using the SFML library for graphics.
+                  Planning to add online multiplayer and a chess engine in the
+                  future.
+                </p>
+              </div>
+              <div class="project-technologies">
+                <img src="assets/c-plusplus.svg" alt="c-plusplus" />
+                <img src="assets/sfml.svg" alt="sfml" />
+              </div>
+            </a>
+          </li>
+          <li class="slide">
+            <a href="https://github.com/igorsiata/football_web" class="project">
+              <img src="assets/footbal_web.PNG" alt="footbal_web" />
+              <div>
+                <h4>Football website</h4>
+                <p>
+                  Football webiste that keeps track of current matches using
+                  external API. This was final project of CS50 web course I have
+                  compleated.
+                </p>
+              </div>
+              <div class="project-technologies">
+                <img src="assets/html-5.svg" alt="html" />
+                <img src="assets/css-3.svg" alt="css" />
+                <img src="assets/javascript.svg" alt="javascript" />
+                <img src="assets/django.svg" alt="django" />
+              </div>
+            </a>
+          </li>
+          <!-- <li class="slide">
+            <a href="https://github.com/igorsiata/football_web" class="project">
+              <img src="assets/footbal_web.PNG" alt="footbal_web" />
+              <div>
+                <h4>Traffic light optimalization</h4>
+                <p>
+                  Football webiste that keeps track of current matches using
+                  external API. This was final project of CS50 web course I have
+                  compleated.
+                </p>
+              </div>
+              <div class="project-technologies">
+                <img src="assets/html-5.svg" alt="html" />
+                <img src="assets/css-3.svg" alt="css" />
+                <img src="assets/javascript.svg" alt="javascript" />
+                <img src="assets/django.svg" alt="django" />
+              </div>
+            </a>
+          </li> -->
+        </ul>
       </div>
     </section>
 
