@@ -392,10 +392,12 @@ section {
 .project > img {
   /* border-top-left-radius: 2rem;
   border-top-right-radius: 2rem; */
-  border-radius: 1.5rem;
-  width: 90%;
+  /* border-radius: 1.5rem; */
   height: 40%;
+  width: auto;
+  max-width: 90%;
   margin-top: 5%;
+  border-radius: 1rem;
 }
 
 .project p {
